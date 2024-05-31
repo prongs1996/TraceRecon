@@ -117,7 +117,7 @@ class MatrixL:
         self.fill_matrix()
         self.print_matrix()
 
-def compute_matrix_l_with_input(max_errors, text, pattern):
+def comMatrix(max_errors, text, pattern):
     # Function to compute the L matrix with provided inputs
     matrix_l = MatrixL(max_errors, text, pattern)
     matrix_l.compute_matrix_l()
@@ -128,10 +128,10 @@ if __name__ == "__main__":
     max_errors = 2
     text = "exampletext"
     pattern = "text"
-    compute_matrix_l_with_input(max_errors, text, pattern)
+    comMatrix(max_errors, text, pattern)
     
     # Uncomment the following lines to test with different inputs
     # max_errors = 3
     # text = "yourtext"
     # pattern = "yourpattern"
-    # compute_matrix_l_with_input(max_errors, text, pattern)
+    # comMatrix(max_errors, text, pattern)
